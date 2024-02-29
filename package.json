@@ -1,0 +1,14 @@
+{
+    "name": "secure-api-function",
+    "version": "1.0.0",
+    "description": "A secure API function for Google Cloud Functions",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "deploy": "gcloud functions deploy secureAPIEndpoint --runtime nodejs18 --trigger-http --allow-unauthenticated"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {}
+  }
+  
